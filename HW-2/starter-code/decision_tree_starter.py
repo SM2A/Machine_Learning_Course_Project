@@ -229,7 +229,7 @@ if __name__ == "__main__":
         class_names = ["Ham", "Spam"]
 
     else:
-        raise NotImplementedError("Dataset %s not handled" % dataset)
+        raise NotImplementedError("data %s not handled" % dataset)
 
     print("Features:", features)
     print("Train/test size:", X.shape, Z.shape)
